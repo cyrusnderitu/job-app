@@ -1,0 +1,36 @@
+import { useState } from 'react'
+import './App.css'
+import Navbar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
+import Sponsors from './components/Sponsors/Sponsors'
+import Categories from './components/Categories/Categories'
+import Jobs from './components/Jobs/Jobs'
+import Testimonials from './components/Testimonials/Testimonials'
+import Form from './components/Form/Form'
+import Blog from './components/Blog/Blog'
+import Footer from './components/Footer/Footer'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <div className="App">
+      <div className='hh'>
+        <Navbar />
+        <Hero />
+      </div>
+      <Sponsors />
+      <Categories />
+      <Jobs />
+      <Testimonials />
+      <Form />
+      <Blog />
+      <div className='my-4 flex justify-center'>
+        <button className="border-none p-4 rounded-[30px] text-black bg-lime-200 font-semibold text-[18px]">Read More Articles</button>
+      </div>
+      <Footer />
+    </div>
+  )
+}
+
+export default App
