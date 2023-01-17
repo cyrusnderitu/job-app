@@ -1,5 +1,11 @@
 import React from "react";
 import JobCard from "./JobCard/JobCard";
+import L1 from '../../assets/crypto_currency_icons_1.png'
+import L2 from '../../assets/crypto_currency_icons_2.png'
+import L3 from '../../assets/crypto_currency_icons_3.png'
+import L4 from '../../assets/crypto_currency_icons_4.png'
+import L5 from '../../assets/crypto_currency_icons_5.png'
+import L6 from '../../assets/crypto_currency_icons_6.png'
 
 const Jobs = () => {
   return (
@@ -13,12 +19,12 @@ const Jobs = () => {
           </p>
         </div>
         <div className="jobs_cont grid grid-cols-3 gap-8">
-            <JobCard position="Senior UX Designer at" company="Safaricon"/>
-            <JobCard position="Junior Call Support Assistan at" company="Airtel"/>
-            <JobCard position="Marketing Manager at" company="Twiga LTD"/>
-            <JobCard position="Product Manager at" company="Dairy"/>
-            <JobCard position="DEVOPS Engineer at" company="Google"/>
-            <JobCard position="Data Analyst at" company="Facebook"/>
+            <JobCard position="Senior UX Designer at" company="Safaricon" logo={L1}/>
+            <JobCard position="Junior Call Support Assistan at" company="Airtel" logo={L2}/>
+            <JobCard position="Marketing Manager at" company="Twiga LTD" logo={L3}/>
+            <JobCard position="Product Manager at" company="Dairy" logo={L4}/>
+            <JobCard position="DEVOPS Engineer at" company="Google" logo={L5}/>
+            <JobCard position="Data Analyst at" company="Facebook" logo={L6}/>
         </div>
       </div>
     </div>

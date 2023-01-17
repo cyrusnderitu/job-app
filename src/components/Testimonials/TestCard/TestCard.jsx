@@ -1,7 +1,7 @@
 import React from "react";
 import {AiFillStar} from 'react-icons/ai'
 
-const TestCard = () => {
+const TestCard = ({img}) => {
   return (
     <div className="px-6 py-10 shadow-2xl bg-slate-600 hover:text-slate-400 hover:bg-lime-200 hover:cursor-pointer">
       <div className="cont">
@@ -17,9 +17,12 @@ const TestCard = () => {
           eveniet. Illum fuga dignissimos libero quia ex excepturi! Quibusdam,
           deserunt autem!
         </p>
-        <div>
-            <p className="name text-gray-300">Sabo masties</p>
-            <span className="title text-gray-500 text-sm">Founder of Rubiks</span>
+        <div className="flex items-center gap-x-2">
+            <img src={img} alt="" className="w-[28px] h-[30px] rounded-[50%]"/>
+            <div className="">
+              <p className="name text-gray-300">Sabo masties</p>
+              <span className="title text-gray-500 text-sm">Founder of Rubiks</span>
+            </div>
         </div>
       </div>
     </div>

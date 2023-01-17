@@ -1,12 +1,12 @@
 import React from 'react'
-import {MdLocationOn} from 'react-icons/md'
+import icon from '../../../assets/random_icons_23.png'
 
-const JobCard = ({position, company}) => {
+const JobCard = ({position, company, logo}) => {
   return (
     <div className='job_card px-6 py-8 shadow-2xl text-white hover:cursor-pointer'>
       <div className="cont">
-        <div className='location flex items-center gap-2'>
-            <MdLocationOn/>
+        <div className='location flex items-center gap-2 mb-2'>
+            <img src={icon} alt="img" className='h-[20px]' />
             <span className='text-gray-500 text-sm'>South Haven</span>
         </div>
         <div className='position'>
@@ -15,7 +15,7 @@ const JobCard = ({position, company}) => {
         </div>
         <div className='company flex justify-between items-center'>
             <div className='flex items-center gap-2'>
-                <img src="" alt="img" className='bg-white w-[30px] h-[30px] rounded-[50%]' />
+                <img src={logo} alt="img" className='bg-white w-[30px] h-[30px] rounded-[50%]' />
                 <div className="company_title">
                     <p className='uppercase text-gray-300 text-sm'>Cravers Tech</p>
                     <span className='text-gray-500 text-sm'>19hours</span>

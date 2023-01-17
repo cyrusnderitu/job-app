@@ -7,7 +7,7 @@ import Amazon from '../../assets/amazon-pay.png'
 
 const Sponsors = () => {
   return (
-    <div className="px-16 md:py-24">
+    <div className="px-16 md:py-28">
       <div className="cont flex justify-center items-start gap-x-12">
         <div className="left flex justify-between flex-1 gap-20">
           <div className="downloads">
