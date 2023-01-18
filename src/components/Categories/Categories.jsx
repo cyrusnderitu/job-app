@@ -5,7 +5,7 @@ import {BsDropletHalf} from 'react-icons/bs'
 import {AiOutlineStock} from 'react-icons/ai'
 import Dev from '../../assets/browser_icons_1.png'
 import Market from '../../assets/guy_with_glasses.png'
-import Design from '../../assets/Recording Studio Illustration.png'
+import Design from '../../assets/webdesign_icons_1.png'
 import Finance from '../../assets/miscellaneous_icons_7.png'
 
 const Categories = () => {

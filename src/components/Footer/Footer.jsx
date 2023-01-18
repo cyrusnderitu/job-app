@@ -1,5 +1,7 @@
 import React from 'react'
 import {FcWorkflow} from 'react-icons/fc'
+import {AiFillFacebook, AiFillTwitterCircle, AiFillGoogleCircle, AiFillInstagram} from 'react-icons/ai'
+import {BsFacebook} from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -14,10 +16,10 @@ const Footer = () => {
                 <p className='md:w-3/5 mb-4 text-gray-500'>We have a collection of latest 2, 440 jobs to join next companies</p>
             </div>
             <div className="socials flex items-center gap-4">
-                <a href="">F</a>
-                <a href="">T</a>
-                <a href="">G</a>
-                <a href="">I</a>
+                <a href=""><BsFacebook className=' text-[1.5rem] hover:fill-lime-300'/></a>
+                <a href=""><AiFillTwitterCircle className=' text-[1.75rem] hover:fill-lime-300'/></a>
+                <a href=""><AiFillGoogleCircle className=' text-[1.75rem] hover:fill-lime-300'/></a>
+                <a href=""><AiFillInstagram className=' text-[1.75rem] hover:fill-lime-300'/></a>
             </div>
         </div>
         <div className="right">

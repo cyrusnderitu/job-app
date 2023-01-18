@@ -7,7 +7,7 @@ const JobCard = ({position, company, logo}) => {
       <div className="cont">
         <div className='location flex items-center gap-2 mb-2'>
             <img src={icon} alt="img" className='h-[20px]' />
-            <span className='text-gray-500 text-sm'>South Haven</span>
+            <span className='text-gray-400 text-sm'>South Haven</span>
         </div>
         <div className='position'>
             <h4 className='text-xl mb-2 font-semibold'>{`${position} ${company}`}</h4>

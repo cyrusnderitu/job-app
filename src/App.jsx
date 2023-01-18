@@ -6,9 +6,10 @@ import Sponsors from './components/Sponsors/Sponsors'
 import Categories from './components/Categories/Categories'
 import Jobs from './components/Jobs/Jobs'
 import Testimonials from './components/Testimonials/Testimonials'
-import Form from './components/Form/Form'
 import Blog from './components/Blog/Blog'
 import Footer from './components/Footer/Footer'
+import Post from './components/Post/Post'
+import Account from './components/Account/Account'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,8 +23,9 @@ function App() {
       <Sponsors />
       <Categories />
       <Jobs />
+      <Account />
       <Testimonials />
-      <Form />
+      <Post />
       <Blog />
       <div className='my-4 flex justify-center'>
         <button className="border-none p-4 rounded-[30px] text-black bg-lime-200 font-semibold text-[18px]">Read More Articles</button>
