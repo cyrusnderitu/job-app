@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="headline">
                 <div className='flex items-center gap-2 mb-3'>
                   <FcWorkflow className='text-4xl'/>
-                  <h2 className='text-3xl text-white font-bold'>Hired</h2>
+                  <h2 className='text-3xl text-white font-bold'>Talent</h2>
                 </div>
                 <p className='md:w-3/5 mb-4 text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, incidunt?</p>
             </div>

@@ -7,8 +7,8 @@ import Amazon from '../../assets/amazon-pay.png'
 
 const Sponsors = () => {
   return (
-    <div className="px-16 md:py-32">
-      <div className="cont flex justify-center items-start gap-x-12">
+    <div className="px-16 md:py-24">
+      <div className="cont flex justify-center items-start gap-x-12 mt-20">
         <div className="left flex justify-between flex-1 gap-20">
           <div className="downloads">
             <h1 className="font-semibold text-3xl underline-offset-4 underline text-white mb-2">
@@ -48,9 +48,10 @@ const Sponsors = () => {
           </h3>
           <div className="mt-4">
             <p className="text-gray-500 mb-2">Also featured in:</p>
-            <div className="featured flex justify-start gap-8">
+            <div className="featured flex justify-start gap-8 items-center">
               <img src={Google} alt="" className="h-[20px]"/>
               <img src={Slack} alt="" className="h-[20px]"/>
+              <img src={Amazon} alt="" className=""/>
             </div>
           </div>
         </div>

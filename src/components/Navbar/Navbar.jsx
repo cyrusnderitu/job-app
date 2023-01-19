@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className='flex justify-between items-center'>
             <div className="logo flex gap-2 items-center">
                 <FcWorkflow className='text-4xl'/>
-                <h1 className='text-3xl font-bold text-white'>Hired</h1>
+                <h1 className='text-3xl font-bold text-white'>Talent</h1>
             </div>
             <div className="menu">
                 <div className="menu_cont flex md:flex-row gap-8">
