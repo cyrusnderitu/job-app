@@ -6,7 +6,7 @@ import A3 from '../../assets/avatar_icons_3.png'
 
 const Testimonials = () => {
   return (
-    <div className='md:py-24'>
+    <div className='md:mt-32'>
       <div className="cont">
         <h1 className='text-4xl mb-8 text-white'>What our client says</h1>
         <div className="card_cont grid grid-cols-3 gap-8">

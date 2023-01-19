@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials/Testimonials'
 import Blog from './components/Blog/Blog'
 import Footer from './components/Footer/Footer'
 import Post from './components/Post/Post'
+// import Newsletter from './components/Newsletter/Newsletter'
 import Account from './components/Account/Account'
 
 function App() {
@@ -23,11 +24,12 @@ function App() {
       <Sponsors />
       <Categories />
       <Jobs />
+      {/* <Newsletter /> */}
       <Account />
       <Testimonials />
       <Post />
       <Blog />
-      <div className='my-4 flex justify-center'>
+      <div className='flex justify-center mb-12'>
         <button className="border-none p-4 rounded-[30px] text-black bg-lime-200 font-semibold text-[18px]">Read More Articles</button>
       </div>
       <Footer />

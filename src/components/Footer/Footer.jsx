@@ -13,7 +13,7 @@ const Footer = () => {
                   <FcWorkflow className='text-4xl'/>
                   <h2 className='text-3xl text-white font-bold'>Hired</h2>
                 </div>
-                <p className='md:w-3/5 mb-4 text-gray-500'>We have a collection of latest 2, 440 jobs to join next companies</p>
+                <p className='md:w-3/5 mb-4 text-gray-500'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, incidunt?</p>
             </div>
             <div className="socials flex items-center gap-4">
                 <a href=""><BsFacebook className=' text-[1.5rem] hover:fill-lime-300'/></a>

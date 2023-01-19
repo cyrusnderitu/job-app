@@ -6,7 +6,7 @@ import A3 from "../../assets/avatar_icons_3.png";
 
 const Post = () => {
   return (
-    <div className="">
+    <div className="md:py-24">
       <div className="cont flex items-center justify-between">
         <div className="left flex-1">
           <div className="post_cont grid gap-y-4">
