@@ -14,7 +14,7 @@ const Post = () => {
               So Many People are engaged all over the world
             </h1>
             <p className="text-gray-400">
-              AS a startup, yo might be looking to exapnd your team in order to
+              As a startup, you might be looking to expand your team in order to
               build or scale, looking for funding or being in the need of best
               practice tools such as a pitch deck or emplyment contracts
             </p>

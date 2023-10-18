@@ -10,12 +10,12 @@ import C8 from "../../assets/character_icons_8.png";
 
 const Hero = () => {
   return (
-    <div className="h-screen flex justify-center items-center">
+    <div className=" flex justify-center items-center z-20 mt-6">
       <div className="hero_cont w-full flex justify-center">
-        <div className="flex flex-col gap-y-8 mt-[160px]">
+        <div className="flex flex-col gap-y-8 ">
           <div className="top flex flex-col items-center text-center">
             <div className="w-[60%]">
-              <h1 className="text-5xl font-semibold text-white mb-4 leading-16">
+              <h1 className="text-5xl font-semibold text-white mb-4 leading-snug">
                 Dreamjobs find talent, All in one place
               </h1>
               <p className="desc text-gray-400">
@@ -36,41 +36,41 @@ const Hero = () => {
             <img
               src={C1}
               alt=""
-              className="h-[200px] w-fit bg-cyan-300 rounded-lg pt-10 px-7"
+              className="h-[180px] w-fit bg-cyan-300 rounded-lg pt-10 px-7"
             />
             <div className="flex flex-col gap-y-4 justify-center items-center">
               <img
                 src={C2}
                 alt=""
-                className="h-[200px] w-fit bg-purple-500 rounded-lg pt-10 px-7"
+                className="h-[180px] w-fit bg-purple-500 rounded-lg pt-10 px-7"
               />
               <img
                 src={C3}
                 alt=""
-                className="h-[200px] w-fit bg-yellow-200 rounded-lg pt-10 px-7"
+                className="h-[180px] w-fit bg-yellow-200 rounded-lg pt-10 px-7"
               />
             </div>
             <img
               src={C4}
               alt=""
-              className="h-[200px] w-fit bg-cyan-300 rounded-lg pt-10 px-7"
+              className="h-[180px] w-fit bg-cyan-300 rounded-lg pt-10 px-7"
             />
             <div className="flex flex-col gap-y-4 justify-center items-center">
               <img
                 src={C5}
                 alt=""
-                className="h-[200px] w-fit bg-orange-400 rounded-lg pt-10 px-4"
+                className="h-[180px] w-fit bg-orange-400 rounded-lg pt-10 px-4"
               />
               <img
                 src={C6}
                 alt=""
-                className="h-[200px] w-fit bg-lime-300 rounded-lg pt-10 px-7"
+                className="h-[180px] w-fit bg-lime-300 rounded-lg pt-10 px-7"
               />
             </div>
             <img
               src={C8}
               alt=""
-              className="h-[200px] w-fit bg-red-300 rounded-lg pt-10 px-7"
+              className="h-[180px] w-fit bg-red-300 rounded-lg pt-10 px-7"
             />
           </div>
         </div>
